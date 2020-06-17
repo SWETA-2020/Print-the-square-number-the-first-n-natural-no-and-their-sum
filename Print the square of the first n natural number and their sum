@@ -1,0 +1,17 @@
+// print the square of n naturan number and their sum
+
+#include<stdio.h>
+int main()
+{
+    int number,term=1,sum=0;
+    printf("Enter the number of square of natural number you want to print\n");
+    scanf("%d",&number);
+    for(i=0;i<number,i++)
+    {
+        printf(" square of natural numbers= %d  ",term*term);
+        sum=sum+(term*term);
+        term++;
+    }
+    printf("Sum of square of natural numbers = %d",sum);
+    return 0;
+}
